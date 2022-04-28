@@ -21,6 +21,7 @@ namespace Northwind.WebApi.Controllers
             this.customerService = customerService;
         }
 
+        //aynı isimde kabul edilmediği için Find string olarak değiştirdim.
         [HttpGet("FindString")]
         public IResponse<DtoCustomer> Find(string id)
         {
