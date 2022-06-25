@@ -1,10 +1,11 @@
-﻿using Northwind.Entity.Base;
-using Northwind.Entity.IBase;
+﻿using Northwind.Entity.IBase;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+
+
 
 namespace Northwind.Interface
 {
